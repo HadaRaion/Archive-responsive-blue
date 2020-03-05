@@ -1,0 +1,79 @@
+.series-post {
+   width: 100%;
+   margin-bottom: 16px;
+   color: #707070;
+
+   @mixin atSmall {
+      width: 49%;
+      float: left;
+      margin-bottom: 32px;
+   }
+   &:nth-child(odd) {
+      @mixin atSmall {
+         margin-right: 2%;
+      }
+   }
+
+   &__cat {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1.6;
+      letter-spacing: -0.001rem;
+      color: $menuBlue
+   }
+
+   &__img {
+      height: 0;
+      position: relative;
+      padding-top: 70%; 
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #e3e3e3;
+      
+
+      @mixin atSmall {
+         height: 0;
+         position: relative;
+         padding-top: 70%; /*  56.25%;  16:9 ratio */
+         overflow: hidden;
+      }
+      
+   }
+
+   &__textbox {
+      height: 70px;
+      padding: 9px 10px 4px;
+      border: 1px solid #e3e3e3;
+      border-top: none;
+
+      h2 {
+         font-size: 15px;
+         font-weight: 400;
+         overflow: hidden;
+         text-overflow:ellipsis;
+         white-space:nowrap;
+         word-wrap:normal;
+         line-height: 24px;
+      }
+
+      .line {
+         margin: 7px 0 6px;
+      }
+/*
+      .text {
+         margin-top: 1px;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         display: -webkit-box;
+         -webkit-line-clamp: 2;
+         -webkit-box-orient: vertical;
+         word-wrap:break-word; 
+         font-size: 14px;
+         line-height: 23px;
+      }
+*/
+   }
+
+}

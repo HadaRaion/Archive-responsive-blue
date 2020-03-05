@@ -1,0 +1,42 @@
+.series {
+   .search-box input{
+      font-size: 11px;
+      color: #a7a7a7;
+      line-height: inherit;
+
+      &::placeholder{
+         line-height: 20px;
+
+      }
+   }
+   .series-post-container {
+      margin-top: 32px;
+   }
+
+   .series-post {
+
+      &__img {
+         height: 188px;
+      }
+      
+      &__textbox {
+         height: 132px;
+      }
+
+      .text-date {
+         line-height: 23px;
+      }
+   
+      .text {
+         margin-top: 1px;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         display: -webkit-box;
+         -webkit-line-clamp: 2;
+         -webkit-box-orient: vertical;
+         word-wrap:break-word; 
+         font-size: 14px;
+         line-height: 23px;
+      }
+   }
+}

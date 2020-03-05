@@ -1,0 +1,50 @@
+.post-thumb {
+   width: 49%;
+   float: left;
+   margin-bottom: 16px;
+
+   @mixin atSmall {
+      width: 32%;
+   }
+
+   &:nth-child(odd) {
+      margin-right: 2%;
+
+      @mixin atSmall {
+         margin-right: 0;
+      }
+   }
+
+   &:nth-child(3n+2) {
+      @mixin atSmall {
+         margin: 0 2%;
+      }
+   }
+
+   &__img {
+      height: 0;
+      position: relative;
+      padding-top: 70%;  /* 75% 4:3 ratio */
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border: 1px solid #e3e3e3;
+   }
+
+   h2 {
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      word-wrap:normal;
+      margin: 5px 0 0px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 23px;
+   }  
+}
+
+
+.post-list-thumb ul {
+   margin-top: 15px;
+}

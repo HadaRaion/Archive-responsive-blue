@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="29" viewBox="0 0 42 29">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-2,.cls-3{fill:#fff;stroke:#000}.cls-2,.cls-4{stroke-linecap:round}.cls-3,.cls-4{stroke-miterlimit:10}.cls-3{stroke-linecap:square}.cls-4{stroke:#fff}.cls-5{stroke:#fff;fill:#43adff;stroke-width:2px}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_898" data-name="그룹 898" transform="translate(-199 -491)">
+        <g id="그룹_894" data-name="그룹 894" transform="translate(0 -103)">
+            <path id="사각형_175" d="M0 0h42v29H0z" class="cls-1" data-name="사각형 175" transform="translate(199 594)"/>
+            <g id="그룹_408" data-name="그룹 408" transform="translate(25.492 533.613)">
+                <g id="사각형_128" class="cls-2" data-name="사각형 128">
+                    <path d="M0 0h10.544v11.715H0z" class="cls-6" transform="translate(193.296 68.255)"/>
+                    <path d="M.5.5h9.544v10.715H.5z" class="cls-1" transform="translate(193.296 68.255)"/>
+                </g>
+                <path id="패스_905" d="M190.808 75.072v-3.077h10.544V83.71h-1.364" class="cls-3" data-name="패스 905" transform="translate(-1.149 -.81)"/>
+                <g id="그룹_407" data-name="그룹 407" transform="translate(185.508 75.503)">
+                    <circle id="타원_56" cx="6.067" cy="6.067" r="6.067" data-name="타원 56"/>
+                    <path id="패스_906" d="M193.254 82.112v3.028h2.994" class="cls-4" data-name="패스 906" transform="translate(-187.639 -78.506)"/>
+                </g>
+            </g>
+        </g>
+        <g id="타원_64" class="cls-5" data-name="타원 64" transform="translate(224 496)">
+            <circle cx="4" cy="4" r="4" class="cls-6"/>
+            <circle cx="4" cy="4" r="5" class="cls-1"/>
+        </g>
+    </g>
+</svg>

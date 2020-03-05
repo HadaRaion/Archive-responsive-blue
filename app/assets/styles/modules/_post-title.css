@@ -1,0 +1,39 @@
+.posts-title {
+   width: 94px;
+   height: 24px;
+   border: 1px solid #000;
+   border-radius: 12px;
+   margin: 32px auto 16px;
+
+   @mixin atSmall {
+      margin: 40px auto 30px;
+      width: 120px;
+      height: 30px;
+      border-radius: 16px;
+   }
+
+   & > h1 {
+      color: #000;
+      font-size: 9px;
+      font-weight: bold;
+      line-height: 22px;
+
+      @mixin atSmall {
+         font-size: 11px;
+         font-weight: bold;
+         line-height: 28px;
+      }
+   }
+}
+
+.recent-series {
+
+
+   li:last-child {
+      margin-bottom: 28px;
+   }
+}
+
+.recent-docs {
+   margin-bottom: 16px;
+}
